@@ -5,9 +5,9 @@ export CORE_PEER_LOCALMSPID=Org1MSP
 export CORE_PEER_ID=cli
 export CORE_PEER_ADDRESS=peer0.org1.example.com:7051
 
-export CORE_PEER_MSPCONFIGPATH=/home/hyperledger/FabricNetwork-2.x-ADDING_ORG/artifacts/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
+export CORE_PEER_MSPCONFIGPATH=${PWD}/artifacts/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
 
-export ORDERER_CA=/home/hyperledger/FabricNetwork-2.x-ADDING_ORG/Multi-org/artifacts/channel/crypto-config/ordererOrganizations/example.com/msp/tlscacerts/tlsca.example.com-cert.pem && export CHANNEL_NAME=master-channel
+ort ORDERER_CA=${PWD}/Multi-org/artifacts/channel/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
 
 echo 'Fetching configuration block from the ledger'
 
