@@ -7,7 +7,7 @@ export CORE_PEER_ADDRESS=peer0.org1.example.com:7051
 
 export CORE_PEER_MSPCONFIGPATH=${PWD}/artifacts/channel/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
 
-ort ORDERER_CA=${PWD}/Multi-org/artifacts/channel/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
+export ORDERER_CA=${PWD}/Multi-org/artifacts/channel/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
 
 echo 'Fetching configuration block from the ledger'
 
